@@ -2,7 +2,9 @@
 
 ## On Linear Types, Ownerships, and Alias Control
 
-- [Promises: Limited Specifications for Analysis and Manipulations (ICSE 1998](papers/promises.pdf)
+- [Promises: Limited Specifications for Analysis and Manipulations (ICSE 1998)](http://www.cs.uwm.edu/faculty/boyland/papers/promises.html)
+
+- [Data groups: specifying the modification of extended state (OOPSLA 1998)](http://research.microsoft.com/en-us/um/people/leino/papers/krml83.pdf)
 
 - [An Object-Oriented Effects System (ECOOP 1999)](http://www.lirmm.fr/~ducour/Doc-objets/ECOOP/papers/1628/16280205.pdf)
 
