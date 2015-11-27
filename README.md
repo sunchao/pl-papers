@@ -1,9 +1,17 @@
 # Research Papers on Programming Languages
 
-## On Linear Types, Ownerships and Alias Control
+## On Linear Types, Ownerships, and Alias Control
 
-- [Capabilities for Uniqueness and Borrowing (ECOOP 2010)]
-(http://lampwww.epfl.ch/~phaller/doc/haller-odersky10-Capabilities_for_uniqueness_and_borrowing.pdf): 
+- [Promises: Limited Specifications for Analysis and Manipulations (ICSE 1998](papers/promises.pdf)
+
+- [An Object-Oriented Effects System (ECOOP 1999)](http://www.lirmm.fr/~ducour/Doc-objets/ECOOP/papers/1628/16280205.pdf)
+
+- [Modular Typestate Checking of Aliased Objects (OOPSLA 2007)](https://www.cs.cmu.edu/~kbierhof/papers/typestate-verification.pdf):
+a modular typestate checking tool based on a concept called _access
+permissions_, which is high-level abstraction of Fractional Permissions and is
+used to capture different patterns of them.
+
+- [Capabilities for Uniqueness and Borrowing (ECOOP 2010)](http://lampwww.epfl.ch/~phaller/doc/haller-odersky10-Capabilities_for_uniqueness_and_borrowing.pdf): 
 Haller and Odersky designed and implemented a type system which uses
 capabilities to model uniqueness and borrowing. It offers "external uniqueness",
 which is a more strict uniqueness in which the only access path to all
@@ -18,8 +26,3 @@ permission" is supported by this system, which is useful for permission splittin
 combining. The system also supports "changing permissions", which is part of a method's
 contract, and is similar to the input and output permissions specified for a method type
 in Fractional Permissions.
-
-- [Modular Typestate Checking of Aliased Objects (OOPSLA 2007)](https://www.cs.cmu.edu/~kbierhof/papers/typestate-verification.pdf):
-a modular typestate checking tool based on a concept called _access
-permissions_, which is high-level abstraction of Fractional Permissions and is
-used to capture different patterns of them.
