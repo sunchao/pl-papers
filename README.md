@@ -1,5 +1,7 @@
 # Research Papers on Programming Languages
 
+A collection of papers that I've read or plan to read.
+
 ## On Linear Types, Ownerships, and Alias Control
 
 - [Promises: Limited Specifications for Analysis and Manipulations (ICSE 98)](http://www.cs.uwm.edu/faculty/boyland/papers/promises.html)
@@ -35,4 +37,11 @@ in Fractional Permissions.
 
 - [Gradual Typing for Functional Languages (SFP 06)](https://www.cs.colorado.edu/~siek/pubs/pubs/2006/siek06:_gradual.pdf)
 
-- [Gradual Typing for Objects (ECOOP 07)](http://ecee.colorado.edu/~siek/gradual-obj.pdf)
+- [Gradual Typing for Objects (ECOOP 07)](http://ecee.colorado.edu/~siek/gradual-obj.pdf):
+combining static and dynamic typing for OO languages. Type annotation is optional, and in case
+it is missing, a `?` type is used. During type checking, type equality is replaced
+with _type consistency_, which can also be combined with subtyping. A gradual type system,
+(which is based on the object calculus from Abadi and Cardelli) and its semantics are given in the paper.
+The system is proven sound using machine-checked proofs.
+
+
