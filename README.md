@@ -48,6 +48,12 @@ combining. The system also supports "changing permissions", which is part of a m
 contract, and is similar to the input and output permissions specified for a method type
 in Fractional Permissions.
 
+## Formal Verification and Mechanized Proofs
+
+- [A Certified Type-Preserving Compiler from Lambda Calculus to Assembly Language (PLDI '07)](http://adam.chlipala.net/papers/CtpcPLDI07/CtpcPLDI07.pdf)
+
+- [A Verified Compiler for an Impure Functional Language (POPL '10)](http://adam.chlipala.net/papers/ImpurePOPL10/ImpurePOPL10.pdf)
+
 ## On Ownerships
 
 ## Gradual Typing
